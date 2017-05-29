@@ -7,5 +7,21 @@ import java.util.List;
  */
 public class Query {
     public String selectColumns;
-    public List<>
+    public String fromTable;
+    public String fromTableShort;
+    public String joinTable;
+    public String joinTableShort;
+    public String onClause;
+
+    @Override
+    public String toString() {
+        return "Query{" +
+                "selectColumns='" + selectColumns + '\'' +
+                ", fromTable='" + fromTable + '\'' +
+                ", fromTableShort='" + fromTableShort + '\'' +
+                ", joinTable='" + joinTable + '\'' +
+                ", joinTableShort='" + joinTableShort + '\'' +
+                ", onClause='" + onClause + '\'' +
+                '}';
+    }
 }

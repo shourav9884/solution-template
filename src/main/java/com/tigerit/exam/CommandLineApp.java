@@ -9,5 +9,6 @@ public class CommandLineApp {
         System.out.println("Running Solution ...");
         new Solution().run();
         System.out.println("Ending Process ...");
+
     }
 }
